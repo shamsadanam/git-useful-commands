@@ -1,5 +1,5 @@
 # git-useful-commands
 ## Logout/Unset Credentials from/in a device
 ```
-git config --global --unset-all
+git config --global --unset-all user.name
 ```
