@@ -11,6 +11,8 @@ git config --global --unset-all user.name
 git config --global --unset-all user.email
 ```
 
+## Undo All Changes to Last Commit
+[source](https://stackoverflow.com/questions/4630312/reset-all-changes-after-last-commit-in-git)
 ## First, reset any changes
 This will undo any changes you've made to tracked files and restore deleted files:
 ```
@@ -23,7 +25,5 @@ This will delete any new files that were added since the last commit:
 git clean -fd
 ```
 
-*Files that are not tracked due to .gitignore are preserved; they will not be removed.*
-*Warning: using -x instead of -fd would delete ignored files. You probably don't want to do this.*
-*from stackoverflow*
+
 
