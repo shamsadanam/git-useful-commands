@@ -56,5 +56,16 @@ These are the basic steps to work with Git submodules. Keep in mind that each su
 
 For more advanced operations and additional information, you can refer to the official Git documentation on submodules: https://git-scm.com/book/en/v2/Git-Tools-Submodules
 
+## Clone a Repo that has submodule
+```
+git clone https://github.com/aikiframework/json.git --recursive
+```
+
+## If you forgot the --recursive flag you can do:
+```
+git submodule update --init
+```
+
+
 
 
